@@ -1,0 +1,54 @@
+/* Кастомные стили для таблиц */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    border-bottom: 2px solid #089464;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(8, 148, 100, 0.05);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(8, 148, 100, 0.03);
+}
+
+/* Стили для статусов */
+.badge.bg-success {
+    background-color: #089464 !important;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.badge.bg-info {
+    background-color: #0dcaf0 !important;
+}
+
+/* Кастомные кнопки */
+.btn-outline-primary {
+    color: #089464;
+    border-color: #089464;
+}
+
+.btn-outline-primary:hover {
+    background-color: #089464;
+    color: white;
+}
+
+/* Формы */
+.form-control:focus, .form-select:focus {
+    border-color: #089464;
+    box-shadow: 0 0 0 0.25rem rgba(8, 148, 100, 0.25);
+}
+
+/* Алерты */
+.alert-primary {
+    background-color: rgba(8, 148, 100, 0.15);
+    border-color: rgba(8, 148, 100, 0.2);
+    color: #2c3e50;
+}
